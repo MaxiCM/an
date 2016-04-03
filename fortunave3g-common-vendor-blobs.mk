@@ -280,7 +280,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
 	$(LOCAL_PATH)/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	$(LOCAL_PATH)/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-	$(LOCAL_PATH)/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb
+	$(LOCAL_PATH)/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+	$(LOCAL_PATH)/vendor/firmware/keymaste.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    $(LOCAL_PATH)/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    $(LOCAL_PATH)/vendor/firmware/keymaste.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    $(LOCAL_PATH)/vendor/firmware/keymaste.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    $(LOCAL_PATH)/vendor/firmware/keymaste.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 		
 # Other
 # $(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
