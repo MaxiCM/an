@@ -256,7 +256,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/ssr_setup:system/bin/ssr_setup \
 	$(LOCAL_PATH)/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
 	$(LOCAL_PATH)/lib/libatparser.so:system/lib/libatparser.so \
-    $(LOCAL_PATH)/lib/libhdcp2.so:system/lib/libhdcp2.so \
+        $(LOCAL_PATH)/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	$(LOCAL_PATH)/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
 	$(LOCAL_PATH)/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
 	$(LOCAL_PATH)/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
@@ -269,16 +269,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
 	$(LOCAL_PATH)/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
 	$(LOCAL_PATH)/vendor/firmware/keymaste.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    $(LOCAL_PATH)/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    $(LOCAL_PATH)/vendor/firmware/keymaste.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    $(LOCAL_PATH)/vendor/firmware/keymaste.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    $(LOCAL_PATH)/vendor/firmware/keymaste.mdt:system/vendor/firmware/keymaster/keymaster.mdt
+        $(LOCAL_PATH)/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+        $(LOCAL_PATH)/vendor/firmware/keymaste.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+        $(LOCAL_PATH)/vendor/firmware/keymaste.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+        $(LOCAL_PATH)/vendor/firmware/keymaste.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 		
 # Audio
-# $(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-# $(LOCAL_PATH)/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
-# $(LOCAL_PATH)/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
-# $(LOCAL_PATH)/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
 	$(LOCAL_PATH)/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
@@ -307,5 +303,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so
 	
 # librilutils.so
+# $(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+# $(LOCAL_PATH)/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
+# $(LOCAL_PATH)/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
+# $(LOCAL_PATH)/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so \
 
 
