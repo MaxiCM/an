@@ -216,6 +216,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
 	$(LOCAL_PATH)/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	$(LOCAL_PATH)/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+	$(LOCAL_PATH)/lib/librilutils.so:system/lib/librilutils.so \
 	$(LOCAL_PATH)/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
 	
 # Radio
@@ -256,7 +257,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/ssr_setup:system/bin/ssr_setup \
 	$(LOCAL_PATH)/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
 	$(LOCAL_PATH)/lib/libatparser.so:system/lib/libatparser.so \
-        $(LOCAL_PATH)/lib/libhdcp2.so:system/lib/libhdcp2.so \
+	$(LOCAL_PATH)/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	$(LOCAL_PATH)/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
 	$(LOCAL_PATH)/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
 	$(LOCAL_PATH)/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
@@ -269,10 +270,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
 	$(LOCAL_PATH)/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
 	$(LOCAL_PATH)/vendor/firmware/keymaste.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-        $(LOCAL_PATH)/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-        $(LOCAL_PATH)/vendor/firmware/keymaste.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-        $(LOCAL_PATH)/vendor/firmware/keymaste.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-        $(LOCAL_PATH)/vendor/firmware/keymaste.mdt:system/vendor/firmware/keymaster/keymaster.mdt
+	$(LOCAL_PATH)/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+	$(LOCAL_PATH)/vendor/firmware/keymaste.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+	$(LOCAL_PATH)/vendor/firmware/keymaste.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+	$(LOCAL_PATH)/vendor/firmware/keymaste.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 		
 # Audio
 PRODUCT_COPY_FILES += \
@@ -302,7 +303,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
 	$(LOCAL_PATH)/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so
 	
-# librilutils.so
 # $(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
 # $(LOCAL_PATH)/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
 # $(LOCAL_PATH)/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
