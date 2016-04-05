@@ -164,18 +164,18 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw
 	
 # Media
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-	$(LOCAL_PATH)/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-	$(LOCAL_PATH)/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-	$(LOCAL_PATH)/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-	$(LOCAL_PATH)/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-	$(LOCAL_PATH)/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-	$(LOCAL_PATH)/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-	$(LOCAL_PATH)/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-	$(LOCAL_PATH)/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-	$(LOCAL_PATH)/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-	$(LOCAL_PATH)/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so
+#PRODUCT_COPY_FILES += \
+#	$(LOCAL_PATH)/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+#	$(LOCAL_PATH)/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+#	$(LOCAL_PATH)/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+#	$(LOCAL_PATH)/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+#	$(LOCAL_PATH)/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+#	$(LOCAL_PATH)/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+#	$(LOCAL_PATH)/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+#	$(LOCAL_PATH)/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+#	$(LOCAL_PATH)/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+#	$(LOCAL_PATH)/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+#	$(LOCAL_PATH)/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so
 
 # Perf
 PRODUCT_COPY_FILES += \
@@ -277,7 +277,6 @@ PRODUCT_COPY_FILES += \
 		
 # Audio
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
 	$(LOCAL_PATH)/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
 	$(LOCAL_PATH)/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
 	$(LOCAL_PATH)/lib/lib_SamsungRec_V04012.so:system/lib/lib_SamsungRec_V04012.so \
@@ -302,7 +301,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libaudiosa.so:system/lib/libaudiosa.so \
 	$(LOCAL_PATH)/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
 	$(LOCAL_PATH)/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so
-	
+
+# $(LOCAL_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \	
 # $(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
 # $(LOCAL_PATH)/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
 # $(LOCAL_PATH)/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
