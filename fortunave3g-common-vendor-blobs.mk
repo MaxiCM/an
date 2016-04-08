@@ -6,10 +6,14 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
 	$(LOCAL_PATH)/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so
 
-# $(LOCAL_PATH)/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \ 	
+# 	
 PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
 	$(LOCAL_PATH)/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-	$(LOCAL_PATH)/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so
+	$(LOCAL_PATH)/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+	$(LOCAL_PATH)/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+	$(LOCAL_PATH)/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk
+	
 	
 # Bluetooth
 PRODUCT_COPY_FILES += \
@@ -183,9 +187,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/perfd:system/bin/perfd \
 	$(LOCAL_PATH)/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
-# $(LOCAL_PATH)/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so	
 # Postprocessing
 PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
 	$(LOCAL_PATH)/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so
 	
 # Qualcomm framework
