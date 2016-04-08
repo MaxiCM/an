@@ -287,10 +287,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
 	$(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
 	$(LOCAL_PATH)/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-	$(LOCAL_PATH)/lib/libtinycompress.so:system/lib/libtinycompress.so \
 	$(LOCAL_PATH)/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
 	$(LOCAL_PATH)/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
-	$(LOCAL_PATH)/lib/libaudioutils.so:system/lib/libaudioutils.so \
 	$(LOCAL_PATH)/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
 	$(LOCAL_PATH)/lib/libaudioroute.so:system/lib/libaudioroute.so \
 	$(LOCAL_PATH)/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
@@ -306,6 +304,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
 	$(LOCAL_PATH)/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt
 	
+#	$(LOCAL_PATH)/lib/libtinycompress.so:system/lib/libtinycompress.so \
+#	$(LOCAL_PATH)/lib/libaudioutils.so:system/lib/libaudioutils.so \
 #	$(LOCAL_PATH)/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
 #	$(LOCAL_PATH)/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
 #	$(LOCAL_PATH)/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
