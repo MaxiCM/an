@@ -284,8 +284,6 @@ PRODUCT_COPY_FILES += \
 		
 # Audio
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
-	$(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
 	$(LOCAL_PATH)/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
 	$(LOCAL_PATH)/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
 	$(LOCAL_PATH)/lib/libsamsungVoipResampler.so:system/lib/libsamsungVoipResampler.so \
@@ -314,7 +312,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt
 
 
-
+#	$(LOCAL_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+#	$(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
 #   $(LOCAL_PATH)/lib/libtinycompress.so:system/lib/libtinycompress.so \ 	
 #	$(LOCAL_PATH)/lib/libaudioutils.so:system/lib/libaudioutils.so \
 #	$(LOCAL_PATH)/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \	
