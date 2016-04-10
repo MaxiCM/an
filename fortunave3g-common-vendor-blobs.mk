@@ -307,10 +307,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
 	$(LOCAL_PATH)/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so \
 	$(LOCAL_PATH)/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
-	$(LOCAL_PATH)/lib/libaudiosa.so:system/lib/libaudiosa.so \
-	$(LOCAL_PATH)/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt
+	$(LOCAL_PATH)/lib/libaudiosa.so:system/lib/libaudiosa.so
 
-#$(LOCAL_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+	
+#	$(LOCAL_PATH)/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt
+#   $(LOCAL_PATH)/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
 #	$(LOCAL_PATH)/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
 #	$(LOCAL_PATH)/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
 #   $(LOCAL_PATH)/lib/libtinycompress.so:system/lib/libtinycompress.so \ 	
