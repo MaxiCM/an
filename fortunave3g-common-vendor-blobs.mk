@@ -326,7 +326,3 @@ PRODUCT_COPY_FILES += \
 #       $(LOCAL_PATH)/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
 #	$(LOCAL_PATH)/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
 # 	$(LOCAL_PATH)/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-
-
-
-
