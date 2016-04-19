@@ -214,14 +214,11 @@ PRODUCT_COPY_FILES += \
 	
 # RIL
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/bin/rild:system/bin/rild \
-	$(LOCAL_PATH)/lib/libril.so:system/lib/libril.so \
 	$(LOCAL_PATH)/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	$(LOCAL_PATH)/lib/libsec-ril.so:system/lib/libsec-ril.so \
 	$(LOCAL_PATH)/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
 	$(LOCAL_PATH)/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	$(LOCAL_PATH)/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-	$(LOCAL_PATH)/lib/librilutils.so:system/lib/librilutils.so \
 	$(LOCAL_PATH)/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
 	
 # Radio
@@ -307,7 +304,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
 	$(LOCAL_PATH)/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
 	$(LOCAL_PATH)/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so
-	
+
+#	$(LOCAL_PATH)/bin/rild:system/bin/rild \
+#	$(LOCAL_PATH)/lib/libril.so:system/lib/libril.so \
+#	$(LOCAL_PATH)/lib/librilutils.so:system/lib/librilutils.so \	
 #       $(LOCAL_PATH)/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
 #	$(LOCAL_PATH)/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
 #	$(LOCAL_PATH)/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
