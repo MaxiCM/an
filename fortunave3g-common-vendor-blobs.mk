@@ -216,7 +216,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
 	$(LOCAL_PATH)/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
 	$(LOCAL_PATH)/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-	$(LOCAL_PATH)/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so
+	$(LOCAL_PATH)/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+	$(LOCAL_PATH)/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+	$(LOCAL_PATH)/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+	$(LOCAL_PATH)/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml
 	
 # RIL
 PRODUCT_COPY_FILES += \
