@@ -30,11 +30,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
 	
 # Camera
-#$(LOCAL_PATH)/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so 
-#$(LOCAL_PATH)/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so 
-#$(LOCAL_PATH)/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so 
-#$(LOCAL_PATH)/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so 
-#$(LOCAL_PATH)/lib/libarcsoft_wideselfie.so:system/lib/libarcsoft_wideselfie.so 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	$(LOCAL_PATH)/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
@@ -177,7 +172,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
 	$(LOCAL_PATH)/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    	$(LOCAL_PATH)/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+	$(LOCAL_PATH)/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
 	$(LOCAL_PATH)/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
 	$(LOCAL_PATH)/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
 	$(LOCAL_PATH)/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
@@ -324,13 +319,13 @@ PRODUCT_COPY_FILES += \
 #	$(LOCAL_PATH)/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
 #	$(LOCAL_PATH)/lib/libeffects.so:system/lib/libeffects.so \
 #	$(LOCAL_PATH)/etc/Tfa9895.cnt:system/etc/Tfa9895.cnt
-#       $(LOCAL_PATH)/lib/libtinycompress.so:system/lib/libtinycompress.so \ 	
+#	$(LOCAL_PATH)/lib/libtinycompress.so:system/lib/libtinycompress.so \ 	
 #	$(LOCAL_PATH)/lib/libaudioutils.so:system/lib/libaudioutils.so \
-#       $(LOCAL_PATH)/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
-#       $(LOCAL_PATH)/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so
-#       $(LOCAL_PATH)/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
-#       $(LOCAL_PATH)/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
-#       $(LOCAL_PATH)/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+#	$(LOCAL_PATH)/lib/lib_SoundAlive_ver118t.so:system/lib/lib_SoundAlive_ver118t.so \
+#	$(LOCAL_PATH)/lib/lib_DNSe_EP_ver216b.so:system/lib/lib_DNSe_EP_ver216b.so
+#	$(LOCAL_PATH)/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+#	$(LOCAL_PATH)/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+#	$(LOCAL_PATH)/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
 #	$(LOCAL_PATH)/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
 # 	$(LOCAL_PATH)/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
 #	$(LOCAL_PATH)/vendor/firmware/keymaste.b00:system/vendor/firmware/keymaster/keymaster.b00 \
