@@ -1,5 +1,12 @@
 LOCAL_PATH := vendor/samsung/fortunave3g/proprietary
 
+# USB
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/bin/usb_uicc_client:system/bin/usb_uicc_client \
+	$(LOCAL_PATH)/bin/vm_bms:system/bin/vm_bms \
+	$(LOCAL_PATH)/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
+	$(LOCAL_PATH)/bin/msm_irqbalance:system/bin/msm_irqbalance
+
 # ADSP
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/adsprpcd:system/bin/adsprpcd \
@@ -13,7 +20,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
 	$(LOCAL_PATH)/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
 	$(LOCAL_PATH)/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk
-	
 	
 # Bluetooth
 PRODUCT_COPY_FILES += \
