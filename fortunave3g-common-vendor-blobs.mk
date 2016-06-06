@@ -5,7 +5,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/usb_uicc_client:system/bin/usb_uicc_client \
 	$(LOCAL_PATH)/bin/vm_bms:system/bin/vm_bms \
 	$(LOCAL_PATH)/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
-	$(LOCAL_PATH)/bin/msm_irqbalance:system/bin/msm_irqbalance
+	$(LOCAL_PATH)/bin/msm_irqbalance:system/bin/msm_irqbalance \
+	$(LOCAL_PATH)/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+	$(LOCAL_PATH)/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+	
 
 # ADSP
 PRODUCT_COPY_FILES += \
@@ -334,10 +337,5 @@ PRODUCT_COPY_FILES += \
 #	$(LOCAL_PATH)/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
 #	$(LOCAL_PATH)/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
 # 	$(LOCAL_PATH)/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-#	$(LOCAL_PATH)/vendor/firmware/keymaste.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-#	$(LOCAL_PATH)/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-#	$(LOCAL_PATH)/vendor/firmware/keymaste.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-#	$(LOCAL_PATH)/vendor/firmware/keymaste.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-#	$(LOCAL_PATH)/vendor/firmware/keymaste.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 #	$(LOCAL_PATH)/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
 #	$(LOCAL_PATH)/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
